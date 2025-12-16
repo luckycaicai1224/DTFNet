@@ -6,8 +6,8 @@ import torch
 from sklearn.model_selection import KFold
 from torch.utils.data import Dataset, DataLoader
 from sklearn.preprocessing import StandardScaler
-# from utils.timefeatures import time_features
-from timefeatures import time_features
+from utils.timefeatures import time_features
+# from timefeatures import time_features
 
 import warnings
 
